@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Web Service Programming Homework</title>
+<link rel = "stylesheet" href="resources/register.css" type="text/css"></link>
+</head>
+
+<body>
+	<header> 2020 KPU Web Service Programming Community </header>
+	
+	<audio src="resources/물방울 - Tido Kang.mp3" autoplay>
+	</audio>
+</body>
+</html>

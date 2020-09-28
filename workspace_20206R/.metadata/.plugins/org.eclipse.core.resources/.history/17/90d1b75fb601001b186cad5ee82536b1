@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+	header
+	{
+		font-family: 'Press Start 2P', cursive;
+	}
