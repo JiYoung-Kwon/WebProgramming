@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Web Service Programming Homework</title>
+<link rel="stylesheet" href="resources/register.css" type="text/css"></link>
+</head>
+
+<body>
+	<header>Create Your Account</header>
+	
+	<div>
+	
+		<fieldset>
+			<legend>Personnel Information</legend>
+			<ul>
+				<li>ID : <input type="text" name="id" autofocus required placeholder = "공백없이 입력하세요"></li>
+				<li>PASSWORD : <input type="password" name="passwd" autofocus required placeholder = "공백없이 입력하세요"></li>
+				<li>USERNAME : <input type="text" name="username" autofocus required placeholder = "공백없이 입력하세요"></li>
+				<li>STUDENTNUMBER : <input type="text" name="snum" autofocus required placeholder = "공백없이 입력하세요"></li>
+				<li>DEPARTMENT : <input type="text" name="depart" autofocus required placeholder = "공백없이 입력하세요"></li>
+				<li>MOBILE : <input type="text" name="mobile" autofocus required placeholder = "***.****.****"></li>
+				<li>EMAIL : <input type="text" name="email" autofocus required placeholder = "****@*****.***"></li>
+				
+			</ul>
+		</fieldset>
+	</div>
+</body>
+</html>

@@ -32,3 +32,21 @@
 		margin:20px;
 		padding:20px;
 	}
+	a{
+		text-decoration: underline;
+		color: #0000a0;
+	}
+	table{
+		border-collapse: collapse;
+		width:100%;
+	}
+	th{
+		border: 1px solid lightgray;
+		padding: 5px;
+		width: 30%;
+	}
+	td{
+		border: 1px solid lightgray;
+		padding: 5px;
+		width: 70%;
+	}

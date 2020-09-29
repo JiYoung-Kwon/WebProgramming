@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Web Service Programming Homework</title>
+<link rel="stylesheet" href="resources/register.css" type="text/css"></link>
+</head>
+
+<body>
+	<header>Create Your Account</header>
+	
+	<div>
+	
+		<fieldset>
+			<legend>Personnel Information</legend>
+		</fieldset>
+	</div>
+</body>
+</html>
