@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import kpu.web.club.domain.StudentVO;
-import kpu.web.club.persistence.StudentDAO;
+//import kpu.web.club.persistence.StudentDAO;
 
 /**
  * Servlet implementation class StudentServlet
@@ -62,9 +62,15 @@ public class StudentServlet extends HttpServlet {
 			studentVO.setMobile(request.getParameter("mobile"));
 			studentVO.setEmail(request.getParameter("email"));
 			
-			StudentDAO studentDAO = new StudentDAO();
+			request.setAttribute("id", studentVO.getId());
+			request.setAttribute("username", studentVO.getUsername());
+			request.setAttribute("snum", studentVO.getSnum());
+			request.setAttribute("depart", studentVO.getDepart());
+			request.setAttribute("mobile", studentVO.getMobile());
+			request.setAttribute("email", studentVO.getEmail());
 			
-			request.setAttribute("id", studentDAO.join(studentVO));	
+			//StudentDAO studentDAO = new StudentDAO();
+			//request.setAttribute("id", studentDAO.join(studentVO));	
 		}
 		
 		RequestDispatcher view = request.getRequestDispatcher("result.jsp");
