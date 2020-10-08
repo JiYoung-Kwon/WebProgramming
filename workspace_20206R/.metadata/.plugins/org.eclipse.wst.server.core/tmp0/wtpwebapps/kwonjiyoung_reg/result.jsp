@@ -10,6 +10,9 @@
 <body>
  	<header> 2020 KPU Web Service Programming Community </header>
  	
+ 	<audio src="resources/virwesr.mp3" autoplay>
+	</audio>
+	
  	<p id=sect> 커뮤니티 가입을 축하합니다.	</p>
  	
 	<div><table>

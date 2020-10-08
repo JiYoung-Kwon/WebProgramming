@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap')
+	;
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap')
+	;
+
+header {
+	margin: 20px 10px 40px 10px;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 25px;
+	text-shadow: 3px 3px 8px gray;
+	text-align: center;
+}
+
+body {
+	color: black;
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 25px;
+}
+
+div {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	text-align: left;
+	background-color: #FAFEE2;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#sect {
+	background-color: #EFFFEF;
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+}
+
+a {
+	text-decoration: underline;
+	color: #0000a0;
+}
+
+table {
+	background-color: #F7FDFF;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th {
+	border: 1px solid lightgray;
+	padding: 5px;
+	width: 30%;
+}
+
+td {
+	border: 1px solid lightgray;
+	padding: 5px;
+	width: 70%;
+}
+
+.a {
+	text-indent: 1em;
+}

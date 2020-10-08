@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Web Service Programming Homework</title>
+<link rel="stylesheet" href="resources/register.css" type="text/css"></link>
+</head>
+
+<body>
+	<header> 2020 KPU Web Service Programming Community </header>
+
+	<audio src="resources/물방울 - Tido Kang.mp3" autoplay>
+	</audio>
+
+
+	<p id=sect>
+		반갑습니다. <br> 웹 서비스 프로그래밍 학생들을 위한 커뮤니티입니다. <br> 
+		<a	href="http://localhost:8080/kwonjiyoung_reg/StudentServlet?cmd=join" target="_self"> 커뮤니티에 가입하세요</a>
+	</p>
+
+	<div>
+		<p>저 권지영을 소개합니다.</p>
+
+		<div>
+			<table>
+				<tr>
+					<th> <img src="resources/Jiyoung.jpg" alt="jiyoung" width="216"height="288"></th>
+					<td>
+						<ul>
+							<li> - Kwon Ji Young</li>
+							<li> - 1998.04.16</li>
+							<li> - KOREA POLYTECHNIC UNIVERSITY</li>
+							<li> - Computer Engineering</li>
+							<li> - SNS</li>				
+						 	<li class = "a"><a href="https://www.instagram.com/jjiyomm/">- instagram</a></li>
+							<li><a href="https://www.facebook.com/rhakrywkd">- facebook</a></li>			
+						 </ul>
+					</td>	
+				</tr>
+
+			</table>
+		</div>
+	</div>
+</body>
+</html>

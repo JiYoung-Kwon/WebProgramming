@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My favorite Song</title>
+<link rel="stylesheet" href="resources/register.css" type="text/css"></link>
+</head>
+<body>
+
+	<header> Kwon Ji Young's Recent Interests </header>
+
+	<div>
+		<table>
+			<tr>
+				<td>
+					<ul>
+						<li>- Recent Favorite Video</li>
+						<li>
+							<div>
+								<br>
+								<iframe width="560" height="315"
+									src="https://www.youtube.com/embed/C2MNjMpxONs"></iframe>
+								<br>
+							</div>
+						</li>
+						<li>- My Favorite Song</li>
+						<li>
+							<div>
+								<br>
+								<iframe width="560" height="315"
+									src="https://www.youtube.com/embed/HMTgdiY1CJY"></iframe>
+							</div>
+						</li>
+
+					</ul>
+			</tr>
+		</table>
+	</div>
+
+	<div>
+		<p>
+			<a href="http://localhost:8080/kwonjiyoung_reg/welcome.html"
+				target="_self"> 메인 페이지로 이동</a>
+		</p>
+	</div>
+</body>
+</html>
