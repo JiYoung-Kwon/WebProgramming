@@ -6,7 +6,12 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
+		<item key="selection" value="h2"/>
 		<list key="findhistory">
+			<item value="h2"/>
+			<item value="current"/>
+			<item value="banner"/>
+			<item value="header"/>
 		</list>
 		<list key="replacehistory">
 		</list>
