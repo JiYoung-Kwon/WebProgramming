@@ -23,7 +23,7 @@
 	</table></div> 
 	
 	<div>
-		<p> <a href="http://localhost:8080/kwonjiyoung_reg/welcome.html" target="_self" > 메인 페이지로 이동</a> </p>	
+		<p> <a href="http://localhost:8000/kwonjiyoung_reg/welcome.html" target="_self" > 메인 페이지로 이동</a> </p>	
 	</div>
 	
 </body>
