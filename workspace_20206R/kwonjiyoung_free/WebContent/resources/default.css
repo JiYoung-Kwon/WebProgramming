@@ -12,7 +12,7 @@ html, body {
 body {
 	margin: 0px;
 	padding: 0px;
-	background: #E4C65D;
+	background: #FFF7F8;
 	font-family: 'Questrial', sans-serif;
 	font-size: 12pt;
 	color: rgba(0, 0, 0, .6);
@@ -344,11 +344,19 @@ ul.contact li a:before {
 #banner {
 	background-color: #FCCDCC;
 	background-size: cover;
-	height: 20vh;
+	height: 50vh;
 	color: #FFFFFF;
 	text-align: center;
-	text-shadow: -1px 0 #F67C78, 0 1px #F67C78, 1px 0 #F67C78, 0 -1px #F67C78;
-	padding: 2em 0em 3em 0em;
+	padding: 1em 0em 3em 0em;
+}
+
+#first {
+	font-size: 2.5em;
+	color: #FFFFFF;
+	font-family: 'Jua', sans-serif;
+	text-align: center;
+	text-shadow: -1.4px 0 #F67C78, 0 1.4px #F67C78, 1.4px 0 #F67C78, 0 -1.4px #F67C78;
+	padding: 0.1em 0em 1em 0em;
 }
 
 /*********************************************************************************/
@@ -398,16 +406,16 @@ ul.contact li a:before {
 /*********************************************************************************/
 #page-wrapper {
 	overflow: hidden;
-	background: #F3F3F3;
+	background: #FFE1E4;
 	padding: 5em 0em;
+	font-family: 'Jua', sans-serif;
 }
 
-#page {
-	
+#page p {
+	font-size: 1.3em;
 }
-
 #page .title h2 {
-	font-size: 1.60em;
+	font-size: 3em;
 }
 
 /*********************************************************************************/
@@ -641,6 +649,7 @@ ul.tools li a:before {
 }
 
 ul.default {
+	font-size:1.3em;
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -678,3 +687,161 @@ ul.default a:hover {
 	float: right;
 	width: 300px;
 }
+
+/*login page*/
+
+.loginPage {
+	width: 385px;
+	line-height: 50px;
+	margin: 40px auto;
+}
+
+h5 {
+	font-family: 'Jua', sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+
+h5 span {
+	color: #FE68A1;
+}
+
+.login {
+	background-color: #FE68A1;
+	color: white;
+	border-radius: 5px;
+	border: 0;
+	padding: 10px 172px;
+}
+
+#signup {
+	background-color: white;
+	font-family: 'Jua', sans-serif;
+	color: #203864;
+	border: 0;
+	font-size: 25px;
+}
+
+p {
+	text-align: center;
+}
+
+i {
+	color: lightgray;
+}
+
+#imail {
+	position: absolute;
+	top: 215px;
+	margin: 0 355px;
+}
+
+#ipw {
+	position: absolute;
+	top: 267px;
+	margin: 0 355px;
+}
+
+input {
+	border: 1px solid lightgray;
+	border-radius: 3px;
+}
+
+/*sign up*/
+
+.registerPage {
+	width: 450px;
+	line-height: 50px;
+	margin: 40px auto;
+}
+
+legend{
+	font-family: 'Jua', sans-serif;
+	color: #FE68A1;
+}
+
+.register {
+	background-color: #FE68A1;
+	color: white;
+	border-radius: 5px;
+	border: 0;
+	padding: 10px 160px;
+}
+
+fieldset{
+	padding: 0px 40px;
+}
+
+table{
+		width: 1000px;
+	line-height: 30px;
+	margin: 20px auto;
+}
+
+/*********************************************************************************/
+/* Scheduler                                                                        */
+/*********************************************************************************/
+#scheduler {
+	background-color: #FCCDCC;
+	background-size: cover;
+	height: 150vh;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 1em 0em 3em 0em;
+}
+
+#sche_table {
+	background-color: #FFF7F8;
+	color: black;
+	width: 1000px;
+	line-height: 50px;
+	margin: 20px auto;
+}
+
+#second {
+	font-size: 2.5em;
+	color: #FFFFFF;
+	font-family: 'Jua', sans-serif;
+	text-align: center;
+	text-shadow: -1.4px 0 #F67C78, 0 1.4px #F67C78, 1.4px 0 #F67C78, 0 -1.4px #F67C78;
+	padding: 0.2em 0em 0.1em 0em;
+}
+
+#day{
+	vertical-align: top;
+}
+
+#sc_list{
+	background-color: #FFF7F8;
+	font-size: 1em;
+	color: black;
+	width: 500px;
+}
+
+#third {
+	font-size: 2.5em;
+	color: #FFFFFF;
+	font-family: 'Jua', sans-serif;
+	text-align: center;
+	text-shadow: -1.4px 0 #F67C78, 0 1.4px #F67C78, 1.4px 0 #F67C78, 0 -1.4px #F67C78;
+	padding: 0.2em 0em 0em 0em;
+}
+
+#schedule_button {
+	background-color: white;
+	font-family: 'Jua', sans-serif;
+	color: #203864;
+	border: 0;
+	font-size: 25px;
+	padding: 0px 10px 0px 10px;
+}
+
+#update_form {
+	background-color: #FFF7F8;
+	font-family: 'Jua', sans-serif;
+	color: #203864;
+	border: 0;
+	font-size: 25px;
+	padding: 0px 10px 0px 10px;
+}
+

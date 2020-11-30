@@ -60,7 +60,7 @@
          APR (HTTP/AJP) Connector: /docs/apr.html
          Define a non-SSL/TLS HTTP/1.1 Connector on port 8080
     -->
-    <Connector connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443"/>
+    <Connector connectionTimeout="20000" port="8000" protocol="HTTP/1.1" redirectPort="8443"/>
     <!-- A "Connector" using the shared thread pool-->
     <!--
     <Connector executor="tomcatThreadPool"
@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\JIYOUNG.DESKTOP-KDUS7M3\hhsdev\WebProgramming\workspace_20206R\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\JIYOUNG.DESKTOP-KDUS7M3\hhsdev\WebProgramming\workspace_20206R\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\kwonjiyoung_reg" path="/kwonjiyoung_reg" reloadable="true" source="org.eclipse.jst.jee.server:kwonjiyoung_reg"/><Context docBase="C:\Users\JIYOUNG.DESKTOP-KDUS7M3\hhsdev\WebProgramming\workspace_20206R\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\kwonjiyoung_mvcdb" path="/kwonjiyoung_mvcdb" reloadable="true" source="org.eclipse.jst.jee.server:kwonjiyoung_mvcdb"/><Context docBase="C:\Users\JIYOUNG.DESKTOP-KDUS7M3\hhsdev\WebProgramming\workspace_20206R\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\kwonjiyoung_free" path="/kwonjiyoung_free" reloadable="true" source="org.eclipse.jst.jee.server:kwonjiyoung_free"/></Host>
+      <Context docBase="C:\Users\JJIYOM\Documents\GitHub\WebProgramming\workspace_20206R\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\JJIYOM\Documents\GitHub\WebProgramming\workspace_20206R\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\kwonjiyoung_free" path="/kwonjiyoung_free" reloadable="true" source="org.eclipse.jst.jee.server:kwonjiyoung_free"/></Host>
     </Engine>
   </Service>
 </Server>

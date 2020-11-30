@@ -1,5 +1,0 @@
-127.0.0.1 - - [10/Sep/2020:09:55:32 +0900] "GET / HTTP/1.1" 404 807
-0:0:0:0:0:0:0:1 - - [10/Sep/2020:09:55:33 +0900] "GET /jspbook/ch01/css_layout_display.html HTTP/1.1" 200 523
-0:0:0:0:0:0:0:1 - - [10/Sep/2020:09:55:56 +0900] "GET /jspbook/ch01/'' HTTP/1.1" 404 838
-0:0:0:0:0:0:0:1 - - [10/Sep/2020:09:56:39 +0900] "GET /jspbook/ch01/css_layout_display.html HTTP/1.1" 200 503
-0:0:0:0:0:0:0:1 - - [10/Sep/2020:10:18:14 +0900] "GET /jspbook/ch01/css_layout_div.html HTTP/1.1" 200 617

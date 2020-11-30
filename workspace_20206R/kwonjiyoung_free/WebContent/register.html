@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Register Page</title>
+<link href="resources/default.css" rel="stylesheet" type="text/css"
+	media="all" />
+</head>
+
+<body>
+	<h5>회원가입</h5>
+
+	<div class ="registerPage">
+		<form action="http://localhost:8000/kwonjiyoung_free/MemberServlet?cmd=join" method="post">
+		<fieldset>
+			<legend>정보입력</legend>
+			<ul>
+				<li>ID : <input type="text" name="id" autofocus required placeholder = "공백없이 입력하세요"></li>
+				<li>PASSWORD : <input type="password" name="passwd" autofocus required placeholder = "공백없이 입력하세요"></li>
+				<li>USERNAME : <input type="text" name="username" autofocus required placeholder = "공백없이 입력하세요"></li>
+				<li>STUDENTNUMBER : <input type="text" name="snum" autofocus required placeholder = "공백없이 입력하세요"></li>
+				<li>DEPARTMENT : <input type="text" name="depart" autofocus required placeholder = "공백없이 입력하세요"></li>
+				<li>MOBILE : <input type="text" name="mobile" autofocus required placeholder = "***.****.****"></li>
+				<li>EMAIL : <input type="text" name="email" autofocus required placeholder = "****@*****.***"></li>
+			</ul>
+		</fieldset>
+		<br>
+		<fieldset>
+			<input type="submit" name="submit" value="가    입" class="register">
+			<input type="reset" name="reset" value="재작성" class="register">
+		</fieldset>
+		</form>
+	</div>
+</body>
+</html>

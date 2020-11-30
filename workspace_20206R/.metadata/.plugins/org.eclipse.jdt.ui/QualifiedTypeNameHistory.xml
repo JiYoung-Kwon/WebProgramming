@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="com.mysql.cj.Session"/>
+<fullyQualifiedTypeName name="kpu.web.club.persistence.SchedulesDAO"/>
+<fullyQualifiedTypeName name="kpu.web.club.domain.SchedulesVO"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="kpu.web.club.domain.MemberVO"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+</qualifiedTypeNameHistroy>
